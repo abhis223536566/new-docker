@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: 'ad1e102e-d062-41c3-bf2f-078bf93a02bd'
   imageRepository: 'pythonsdkdocker'
   containerRegistry: 'abhicontainerregistry1.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
