@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '3d4d303f-bed9-4abb-aed5-8b46ca665006'
   imageRepository: 'pythonsdk'
   containerRegistry: 'abhicontainerregistry1.azurecr.io'
-  dockerfilePath: '*'
+  dockerfilePath: 'new-docker/azure-pipelines.yml'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
